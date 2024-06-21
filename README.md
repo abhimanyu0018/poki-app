@@ -1,4 +1,4 @@
-# Pokémon App
+# Pokemon App
 
 A simple React application that fetches and displays a list of Pokémon from the PokeAPI. The app includes search functionality to filter Pokémon by name and displays each Pokémon in a card format with an image.
 
