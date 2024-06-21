@@ -1,8 +1,37 @@
-# React + Vite
+# Pokémon App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays a list of Pokémon from the PokeAPI. The app includes search functionality to filter Pokémon by name and displays each Pokémon in a card format with an image.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches Pokémon data from [PokeAPI](https://pokeapi.co/)
+- Displays Pokémon in cards with images
+- Includes a search bar to filter Pokémon by name
+- Responsive design
+
+## Getting Started
+
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
+
+### Prerequisites
+
+Ensure you have the following installed on your local development environment:
+
+- Node.js (v14 or later)
+- npm (v6 or later)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/abhimanyu0018/poki-app
+   cd pokemon-app
+   ```
+2. **Install the dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Running the App:**
+   ```bash
+   npm run dev
+   ```
